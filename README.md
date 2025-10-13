@@ -18,7 +18,7 @@ From Markdown notes and academic papers to full web applications, WEAStack lets 
 
 | Module | Purpose |
 | :-- | :-- |
-| **Core (SSG)** | Live Development Server & Static site generation |
+| **Core** | Live Development Server & Static site generation |
 | **Notes** | Markdown-based note-taking |
 | **Write** | PDF formatting and export |
 | **Auth** | Member authentication and sessions |
