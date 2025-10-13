@@ -1,6 +1,6 @@
 # 🦦 WEAStack — Web Environment Architecture
 
-> **W.E.A.S.E.L** — *Web Environment Architecture for Services Executing Locally*
+> **W.E.A.S.E.L** — *Web Environment Architecture for Services Emulated Locally*
 > 
 > Internal Project Name: `WEASEL`
 
@@ -68,6 +68,11 @@ All available under `/examples`, `/modules` and `/templates`.
 
 See [WEASuite](../../../WEASuite) for the GUI edition.  
 <!-- Visit [wea.app](https://wea.app) (coming soon) docs and updates. -->
+
+---
+
+> **W.E.A.S.E.L.** — *Web Environment Architecture for Services Emulated Locally*  
+> A local-first Cloudflare-style environment to build, test, and publish your work.
 
 ---
 
