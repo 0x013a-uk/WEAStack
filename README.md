@@ -79,15 +79,13 @@ See [WEASuite](../../../WEASuite) for the GUI edition.
 
 ---
 
+WEA is the result of years of iterative design and rewriting across multiple languages and systems — refined into a single, reliable environment for local-first creation and publishing.  
+Built for those who care about simplicity, performance, and owning their work.
+
 > **W.E.A.S.E.L.** — *Web Environment Architecture for Services Emulated Locally*  
 > A local-first Cloudflare-style environment to build, test, and publish your work.
 
 ---
-
-<sub>
-WEA is the result of years of iterative design and rewriting across multiple languages and systems — refined into a single, reliable environment for local-first creation and publishing.  
-Built for those who care about simplicity, performance, and owning their work.
-</sub>
 
 **Maintainer:** `0x013A-uk`  
 **License:** Proprietary (with open templates under MIT)
