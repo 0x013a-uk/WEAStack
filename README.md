@@ -1,6 +1,7 @@
 # 🦦 WEAStack — Web Environment Architecture
 
 > **W.E.A.S.E.L** — *Web Environment Architecture for Services Executing Locally*
+> 
 > Internal Project Name: `WEASEL`
 
 ---
