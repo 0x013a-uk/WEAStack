@@ -4,7 +4,9 @@
 <p align="center"><b>Web Environment Architecture for Services Emulated Locally</b></p>
 <p align="center"><i>Local-first. Create → Build → Publish. No Servers Required</i></p>
 
-# WEAStack — Web Environment Architecture
+---
+
+# WEAStack
 
 > **W.E.A.S.E.L** — *Web Environment Architecture for Services Emulated Locally*
 > 
