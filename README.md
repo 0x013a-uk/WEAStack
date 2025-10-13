@@ -16,7 +16,7 @@
 
 ## ⚙️ Overview
 
-**WEAStack** is the core modular framework powering the **WEASuite** ecosystem — a *local-first environment* for creating, managing, and publishing your work.
+**WEAStack** is the core modular framework powering the [**WEASuite**](../../../WEASuite) ecosystem — a *local-first environment* for creating, managing, and publishing your work.
 
 From Markdown notes and academic papers to full web applications, WEAStack lets you **create offline**, **build locally**, and **publish globally**.
 
