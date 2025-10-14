@@ -89,7 +89,7 @@ Built for those who care about simplicity, performance, and owning their work.
 
 ## Get Involved
 
-- ⭐ Star the Hqllr repos to follow progress  
+- ⭐ Star the repos to follow progress  
 - 💬 Join discussions in each repo  
 - ☕ [Buy me a coffee](https://buymeacoffee.com/0x013a.uk) to support development  
 
