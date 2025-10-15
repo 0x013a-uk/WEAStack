@@ -28,9 +28,9 @@ From Markdown notes and academic papers to full web applications, WEAStack lets 
 | :-- | :-- |
 | **Core** | Live Development Server & Static site generation |
 | **Static File Server** | HTTP file server |
-| **Serverless API*** | JS Worker functions with Caching, KVStore, Database, FileStore |
+| **Serverless API** | JS Worker functions with Caching, KVStore, Database, FileStore |
 | **Jot** | Markdown-based note-taking |
-| **Ingest** | Store an index textual data |
+| **Ingest** | Store and index textual data |
 | **Query** | Question and answer on consumed data |
 | **Reason** | See patterns and connections in your data |
 | **Compose** | Create textual content - documents, scripts, styles |
