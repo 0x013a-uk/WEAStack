@@ -27,10 +27,15 @@ From Markdown notes and academic papers to full web applications, WEAStack lets 
 | Module | Purpose |
 | :-- | :-- |
 | **Core** | Live Development Server & Static site generation |
-| **Notes** | Markdown-based note-taking |
-| **Write** | PDF formatting and export |
+| **Static File Server** | HTTP file server |
+| **Serverless API*** | JS Worker functions with Caching, KVStore, Database, FileStore |
+| **Jot** | Markdown-based note-taking |
+| **Ingest** | Store an index textual data |
+| **Query** | Question and answer on consumed data |
+| **Reason** | See patterns and connections in your data |
+| **Compose** | Create textual content - documents, scripts, styles |
 | **Auth** | Member authentication and sessions |
-| **CMS** | Content management (KV, R2, D1) |
+| **CMS** | Content management suite |
 | **Commerce** | Stripe, PayPal, SnipCart, Paddle, and other integrations |
 | **Deploy** | Cloudflare, GitHub, S3, OpenStack |
 | **Cloud** | Backups and subscriptions |
