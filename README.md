@@ -47,7 +47,7 @@ The WEASuite CLI interfaces directly with WEAStack™ to run and manage services
 
 ``` bash
 weasuite init
-weasuite enable scope search sync
+weasuite enable scope seek sync
 weasuite scribe content/helloworld.md
 weasuite stage
 weasuite sync cloudflare
