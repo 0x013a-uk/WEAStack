@@ -7,6 +7,7 @@
 </p><p align="center">
   <em>Build once. Test everywhere. Deploy anywhere.</em>
 </p>
+
 ---
 
 # ⚙️ WEAStack™ — Core SDK & Runtime
@@ -24,7 +25,7 @@ It provides the runtime, API orchestration, and developer tooling used across al
 |WEASovereign™|	Data governance & enterprise compliance|
 |WEAScribe™|	Markdown authoring & document generation|
 |WEAScribble™|	Lightweight note-taking for devs/creators|
-|WEASearch™|	Local-first indexing and query|
+|WEASeek™|	Local-first indexing and query|
 |WEAStore™|	Archival storage & backups|
 |WEASync™|	Build, deploy, and sync engine|
 |WEASecure™|	Authentication & access control|
@@ -54,7 +55,6 @@ weasuite sync cloudflare
 
 Works across Linux, macOS, and Windows.
 
-
 ---
 
 ## 🧠 Purpose
@@ -66,7 +66,6 @@ WEAStack™ is built for developers and creators who want:
 - Local-first control of every layer of their stack
 
 It is the core runtime for all WEASuite™ editions and any custom WEA-based deployments.
-
 
 ---
 
@@ -105,7 +104,6 @@ While WEAStack™ itself is proprietary, we provide:
 - Starter projects under /examples, /modules, /templates
 
 All examples/templates are MIT-licensed.
-
 
 ---
 
