@@ -1,104 +1,136 @@
+
 <p align="center">
-  <img src="weasel.png" width="180" alt="WEAStack — Web Environment Architecture">
+  <img src="weasel.png" width="180" alt="WEAStack™ — Core SDK and Runtime">
+</p><p align="center">
+  <b>WEAStack™ — The Core of W.E.A.S.E.L.L.™</b><br>
+  <i>Web Environment Architected for Servicing Emulated Local Layers</i>
+</p><p align="center">
+  <em>Build once. Test everywhere. Deploy anywhere.</em>
 </p>
-<p align="center"><b>Web Environment Architecture for Services Emulated Locally</b></p>
-<p align="center"><i>Local-first. Create → Build → Publish. No Servers Required</i></p>
+---
+
+# ⚙️ WEAStack™ — Core SDK & Runtime
+
+WEAStack™ is the engine that powers the W.E.A.S.E.L.L.™ ecosystem.
+It provides the runtime, API orchestration, and developer tooling used across all WEAServices™ and WEASuite™ editions.
 
 ---
 
-# WEAStack
+## 🧩 Core Services (WEAServices™)
 
-> **W.E.A.S.E.L** — *Web Environment Architecture for Services Emulated Locally*
-> 
-> Internal Project Name: `WEASEL`
+|Service|Purpose|
+|-|-|
+|WEAScope™|	Consent & privacy management (CMP)|
+|WEASovereign™|	Data governance & enterprise compliance|
+|WEAScribe™|	Markdown authoring & document generation|
+|WEAScribble™|	Lightweight note-taking for devs/creators|
+|WEASearch™|	Local-first indexing and query|
+|WEAStore™|	Archival storage & backups|
+|WEASync™|	Build, deploy, and sync engine|
+|WEASecure™|	Authentication & access control|
+|WEASponsor™|	Supporter payments & funding|
+|WEAShop™|	Static commerce & checkout|
+|WEAStyle™|	CSS framework (accessible, mobile-first)|
+|WEAScript™|	JS utilities & runtime|
+|WEASwallow™|	Data ingestion & imports|
+|WEAStatic™|	Static HTTP layer|
+|WEAServerless™|	JS/edge execution layer|
 
----
 
-## ⚙️ Overview
-
-**WEAStack** is the core modular framework powering the [**WEASuite**](../../../WEASuite) ecosystem — a *local-first environment* for creating, managing, and publishing your work.
-
-From Markdown notes and academic papers to full web applications, WEAStack lets you **create offline**, **build locally**, and **publish globally**.
-
----
-
-## 🧱 Modules
-
-| Module | Purpose |
-| :-- | :-- |
-| **Core** | Live Development Server & Static site generation |
-| **Static File Server** | HTTP file server |
-| **Serverless API** | JS Worker functions with Caching, KVStore, Database, FileStore |
-| **Jot** | Markdown-based note-taking |
-| **Ingest** | Store and index textual data |
-| **Query** | Question and answer on consumed data |
-| **Reason** | See patterns and connections in your data |
-| **Compose** | Create textual content - documents, scripts, styles |
-| **Auth** | Member authentication and sessions |
-| **CMS** | Content management suite |
-| **Commerce** | Stripe, PayPal, SnipCart, Paddle, and other integrations |
-| **Deploy** | Cloudflare, GitHub, S3, OpenStack |
-| **Cloud** | Backups and subscriptions |
 
 ---
 
 ## 💻 CLI Interface
 
-Use `WEACli` to interact with WEAStack directly.
+The WEASuite CLI interfaces directly with WEAStack™ to run and manage services.
 
-```bash
-wea init
-wea build
-wea deploy cloudflare
-wea sync github
+``` bash
+weasuite init
+weasuite enable scope search sync
+weasuite scribe content/helloworld.md
+weasuite stage
+weasuite sync cloudflare
 ```
 
-Works on Linux, macOS, and Windows.
+Works across Linux, macOS, and Windows.
+
 
 ---
 
-## 🎯 Purpose
+## 🧠 Purpose
 
-WEAStack is for developers and creators who want **Cloudflare native performance**, **zero-server deployment**, and **offline-first control**.
+WEAStack™ is built for developers and creators who want:
 
-It’s the engine that powers all editions of **WEASuite**.
+- Cloudflare native performance without vendor lock-in
+- Zero-server deployments that work offline
+- Local-first control of every layer of their stack
+
+It is the core runtime for all WEASuite™ editions and any custom WEA-based deployments.
+
+
+---
+
+## 🧱 Architecture Overview
+
+```
+     +-------------------------+
+     |       WEASuite™         |  ← GUI / CLI (app layer)
+     +-----------+-------------+
+                 |
+                 v
+     +-------------------------+
+     |       WEAStack™         |  ← Core SDK & Runtime
+     +-----------+-------------+
+                 |
+                 v
+     +-------------------------+
+     |      WEAServices™       |  ← Scope, Sync, Search, etc.
+     +-----------+-------------+
+                 |
+                 v
+     +-------------------------+
+     |    W.E.A.S.E.L.L.™      |  ← Local-first architecture
+     +-------------------------+
+```
 
 ---
 
 ## 📦 Open Source Components
 
-Although WEAStack itself is closed source, you can freely use:
+While WEAStack™ itself is proprietary, we provide:
 
-* Markdown templates
-* Javascript/typescript modules 
-* Documentation and starter projects
+- Example Markdown templates
+- Worker modules and lightweight scripts
+- Docs for deployments (Cloudflare, GitHub, S3)
+- Starter projects under /examples, /modules, /templates
 
-All available under `/examples`, `/modules` and `/templates`.
+All examples/templates are MIT-licensed.
+
 
 ---
 
 ## 📚 Learn More
 
-See [WEASuite](../../../WEASuite) for the GUI edition.  
-<!-- Visit [wea.app](https://wea.app) (coming soon) docs and updates. -->
+WEASuite™ — the application layer built on WEAStack™
+https://github.com/IOXtra/WEASuite
+
+W.E.A.S.E.L.L.™ — the architectural philosophy & brand docs
+https://github.com/IOXtra/W.E.A.S.E.L.L.
 
 ---
 
-WEA is the result of years of iterative design and rewriting across multiple languages and systems — refined into a single, reliable environment for local-first creation and publishing.  
-Built for those who care about simplicity, performance, and owning their work.
+## 💬 Get Involved
 
-> **W.E.A.S.E.L.** — *Web Environment Architecture for Services Emulated Locally*  
-> A local-first Cloudflare-style environment to build, test, and publish your work.
-
----
-
-## Get Involved
-
-- ⭐ Star the repos to follow progress  
-- 💬 Join discussions in each repo  
-- ☕ [Buy me a coffee](https://buymeacoffee.com/ioxtra) to support development  
+- ⭐ Star the repos to follow progress
+<!--- 💬 Join discussions in each repo-->
+- ☕ [Buy me a coffee](https://buymeacoffee.com/ioxtra) to support development
 
 ---
 
-**Maintainer:** `0x013A-uk`  
-**License:** Proprietary (with open templates under MIT)
+Maintainer: 0x013A-uk
+License: Proprietary (with open templates under MIT)
+
+---
+
+> — The W.E.A.S.E.L.L.™ Project. © 2025 IOXtra Limited. All rights reserved. '''
+
