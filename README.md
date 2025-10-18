@@ -37,8 +37,6 @@ It provides the runtime, API orchestration, and developer tooling used across al
 |WEAStatic™|	Static HTTP layer|
 |WEAServerless™|	JS/edge execution layer|
 
-
-
 ---
 
 ## 💻 CLI Interface
@@ -46,11 +44,23 @@ It provides the runtime, API orchestration, and developer tooling used across al
 The WEASuite CLI interfaces directly with WEAStack™ to run and manage services.
 
 ``` bash
+# Create a new project in current directory
 weasuite init
+
+# Enable required services
 weasuite enable style script scope seek sponsor
+weasuite enable serverless
+
+# Edit configuration 
 weasuite config
+
+# Create content
 weasuite scribe content/helloworld.md
-weasuite stage
+
+# Stage preview to `_dist`
+weasuite stage 127.0.0.1:5173
+
+# Sync to live website
 weasuite sync cloudflare
 ```
 
