@@ -33,7 +33,7 @@ It provides the runtime, API orchestration, and developer tooling used across al
 |WEAShop™|	Static commerce & checkout|
 |WEAStyle™|	CSS framework (accessible, mobile-first)|
 |WEAScript™|	JS utilities & runtime|
-|WEASwallow™|	Data ingestion & imports|
+|WEASwallow™|	Data ingestion & indexing|
 |WEAStatic™|	Static HTTP layer|
 |WEAServerless™|	JS/edge execution layer|
 
@@ -47,7 +47,8 @@ The WEASuite CLI interfaces directly with WEAStack™ to run and manage services
 
 ``` bash
 weasuite init
-weasuite enable scope seek sync
+weasuite enable style script scope seek sponsor
+weasuite config.toml
 weasuite scribe content/helloworld.md
 weasuite stage
 weasuite sync cloudflare
